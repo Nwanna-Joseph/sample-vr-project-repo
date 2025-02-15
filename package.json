@@ -1,0 +1,34 @@
+{
+  "name": "basic_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "build": "webpack",
+    "git deploy": "git add . && git commit -m 'development' && git push origin main",
+    "store_auto_setup": "git add . && git commit -m 'development' && git push origin main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "copy-webpack-plugin": "12.0.2",
+    "css-loader": "7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "4.0.0",
+    "webpack": "~5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0",
+    "webpack-json-loader": "^1.0.0"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d": "^0.14.0",
+    "body-parser": "^1.20.3",
+    "gamecontroller.js": "^1.5.0",
+    "three": "^0.171.0"
+  }
+}
