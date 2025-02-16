@@ -15,7 +15,7 @@ module.exports = {
   // },
   resolve: {
     alias: {
-      'ugdk': path.resolve(__dirname, 'src/_ugdk'),
+      'ugdk': path.resolve(__dirname, '_ugdk'),
     },
   },
   module: {
